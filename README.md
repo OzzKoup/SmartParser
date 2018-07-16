@@ -1,3 +1,6 @@
+# Description :
+ It is a HTML analyzer program which can find the most similar element in comparison with source one.
+
 # To run this application : 
 java -jar [xml-analyzer.jar] [sample-0-origin.html] [other html file]
 
