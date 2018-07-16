@@ -1,0 +1,19 @@
+To run this application :
+java -jar [xml-analyzer.jar] [sample-0-origin.html] [other html file]
+
+Output :
+
+sample-1-evil-gemini 
+html[0] > body[1] > div[0] > div[1] > div[2] > div[0] > div[0] > div[1] > a[1]
+
+sample-2-container-and-clone
+
+html[0] > body[1] > div[0] > div[1] > div[2] > div[0] > div[0] > div[1] > div[0] > a[0]
+
+sample-3-the-escape
+
+html[0] > body[1] > div[0] > div[1] > div[2] > div[0] > div[0] > div[2] > a[0]
+
+sample-4-the-mash
+
+html[0] > body[1] > div[0] > div[1] > div[2] > div[0] > div[0] > div[2] > a[0]
