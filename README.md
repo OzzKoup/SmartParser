@@ -2,6 +2,7 @@
 java -jar [xml-analyzer.jar] [sample-0-origin.html] [other html file]
 
 # Result file :
+### This application writes the result in file.
 ### The path of output file : $user.home/SmartAnalyzerResult.txt
 ### For example : C:/Users/Username/SmartAnalyzerResult.txt
 
